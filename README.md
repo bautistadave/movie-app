@@ -39,13 +39,3 @@ rxjs                              6.4.0
 typescript                        3.5.3
 webpack                           4.39.2
 ```
-
-## Instruction for environment setup
-
-- Go the directory where source code is in terminal.
-- Install node 12.11.1 (latest) if you are using `nvm` then simply run `nvm install 12.11.1`, otherwise go to [node site](https://nodejs.org/en/). 
-- Ensure that you are using node version 12.11.1, please check `node --version`
-- Install angular CLI globally `npm install -g @angular/cli`
-- Install dependencies - `npm i`
-- To **run locally** simply type `ng serve` then navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-- To **build** type `ng build`
